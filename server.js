@@ -8,6 +8,7 @@ var nconf = require("nconf")
   , domain = require("domain")
   , serverDomain = domain.create();
 
+;
 
 serverDomain.run(function(){
   http.createServer(function(req, res){
